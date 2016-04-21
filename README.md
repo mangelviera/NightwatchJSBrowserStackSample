@@ -1,4 +1,4 @@
-Handling and use guide:
+How to use:
 
     - npm install
     - To run test locally with Selenium:
