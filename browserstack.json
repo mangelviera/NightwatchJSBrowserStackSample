@@ -1,0 +1,51 @@
+{
+    "src_folders" : ["tests"],
+
+    "selenium" : {
+        "start_process" : false,
+        "host" : "hub.browserstack.com",
+        "port" : 80
+    },
+
+    "test_settings" : {
+        "firefox-windowsXP" : {
+            "launch_url" : "http://hub.browserstack.com",
+            "selenium_port"  : 80,
+            "selenium_host"  : "hub.browserstack.com",
+            "silent": true,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : ""
+            },
+            "desiredCapabilities": {
+                "browser" : "Firefox",
+                "browser_version" : "26.0",
+                "os" : "Windows",
+                "os_version" : "XP",
+                "resolution" : "1024x768",
+                "browserstack.user": "sampletest5",
+                "browserstack.key": "whpcwHc2znQeTrn1XsHZ"
+            }
+        },
+        "chrome-elcapitan" : {
+            "launch_url" : "http://hub.browserstack.com",
+            "selenium_port"  : 80,
+            "selenium_host"  : "hub.browserstack.com",
+            "silent": true,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : ""
+            },
+            "desiredCapabilities": {
+                "browser" : "Chrome",
+                "browser_version" : "35.0",
+                "os" : "OS X",
+                "os_version" : "El Capitan",
+                "resolution" : "1024x768",
+                "javascriptEnabled": true,
+                "browserstack.user": "sampletest5",
+                "browserstack.key": "whpcwHc2znQeTrn1XsHZ"
+            }
+        }
+    }
+}
